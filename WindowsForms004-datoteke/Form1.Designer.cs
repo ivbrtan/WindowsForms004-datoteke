@@ -36,6 +36,7 @@
             this.txtIndeks = new System.Windows.Forms.TextBox();
             this.btnSpremi = new System.Windows.Forms.Button();
             this.btnPrikazi = new System.Windows.Forms.Button();
+            this.lstStudenti = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // label1
@@ -94,6 +95,7 @@
             this.btnSpremi.TabIndex = 6;
             this.btnSpremi.Text = "Spremi";
             this.btnSpremi.UseVisualStyleBackColor = true;
+            this.btnSpremi.Click += new System.EventHandler(this.btnSpremi_Click);
             // 
             // btnPrikazi
             // 
@@ -103,12 +105,22 @@
             this.btnPrikazi.TabIndex = 7;
             this.btnPrikazi.Text = "Prikazi";
             this.btnPrikazi.UseVisualStyleBackColor = true;
+            this.btnPrikazi.Click += new System.EventHandler(this.btnPrikazi_Click);
+            // 
+            // lstStudenti
+            // 
+            this.lstStudenti.FormattingEnabled = true;
+            this.lstStudenti.Location = new System.Drawing.Point(245, 27);
+            this.lstStudenti.Name = "lstStudenti";
+            this.lstStudenti.Size = new System.Drawing.Size(187, 147);
+            this.lstStudenti.TabIndex = 8;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lstStudenti);
             this.Controls.Add(this.btnPrikazi);
             this.Controls.Add(this.btnSpremi);
             this.Controls.Add(this.txtIndeks);
@@ -134,6 +146,7 @@
         private System.Windows.Forms.TextBox txtIndeks;
         private System.Windows.Forms.Button btnSpremi;
         private System.Windows.Forms.Button btnPrikazi;
+        private System.Windows.Forms.ListBox lstStudenti;
     }
 }
 
