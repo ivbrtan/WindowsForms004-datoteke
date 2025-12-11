@@ -26,5 +26,10 @@ namespace WindowsForms005datoteke
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
