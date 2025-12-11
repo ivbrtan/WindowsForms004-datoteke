@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.datotekaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.datoteka = new System.Windows.Forms.ToolStripMenuItem();
             this.unosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.prikazToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pomoćToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -39,7 +39,7 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.datotekaToolStripMenuItem,
+            this.datoteka,
             this.pomoćToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -47,14 +47,14 @@
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "Datoteka";
             // 
-            // datotekaToolStripMenuItem
+            // datoteka
             // 
-            this.datotekaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.datoteka.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.unosToolStripMenuItem,
             this.prikazToolStripMenuItem});
-            this.datotekaToolStripMenuItem.Name = "datotekaToolStripMenuItem";
-            this.datotekaToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
-            this.datotekaToolStripMenuItem.Text = "Datoteka";
+            this.datoteka.Name = "datoteka";
+            this.datoteka.Size = new System.Drawing.Size(66, 20);
+            this.datoteka.Text = "Datoteka";
             // 
             // unosToolStripMenuItem
             // 
@@ -93,7 +93,7 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem datotekaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem datoteka;
         private System.Windows.Forms.ToolStripMenuItem unosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem prikazToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pomoćToolStripMenuItem;
